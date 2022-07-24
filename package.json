@@ -1,5 +1,34 @@
 {
+  "name": "realcomerce-home-assignment-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OdedAz/realcomerce-home-assignment-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OdedAz/realcomerce-home-assignment-backend/issues"
+  },
+  "homepage": "https://github.com/OdedAz/realcomerce-home-assignment-backend#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "knex": "^2.2.0",
+    "moment": "^2.29.4",
+    "mssql": "^8.1.2",
+    "mysql": "^2.18.1"
   }
 }
